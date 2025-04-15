@@ -72,6 +72,8 @@ The "Rule of 3" is evident in patterns and supported by studies. It provides a b
 
 This guiding principle ensures clarity, focus, and harmony in both conceptual and technical outputs.
 
+Additionally, the book *Deep Work: Rules for Focused Success in a Distracted World* suggests that 3 cognitively demanding topics are a realistic upper limit. While I have not read this book, its premise complements the idea in general.
+
 ## Getting Started
 
 1. Clone the repository:
