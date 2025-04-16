@@ -29,7 +29,7 @@ AI agents, as defined today, focus on task automation, data analysis, and decisi
 
 ### Key Takeaway
 
-AI agents should combine the strengths of bio and human agents to become:
+AI agents we build should combine the strengths of bio and human agents to become:
 - **Autonomous**: Operate independently without constant supervision.
 - **Collaborative**: Work effectively with humans and other agents.
 - **Scalable**: Adapt to various levels of complexity and expand their impact.
