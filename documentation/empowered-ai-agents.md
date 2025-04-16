@@ -38,28 +38,9 @@ Scalability is the natural progression of autonomy. To achieve scalability, we m
 ### Key Takeaway
 
 AI agents we build should combine the strengths of biological and human agents to become:
-
-```plaintext
-+---------------------------+
-|   LLM-powered Intelligence|
-|   - Operate independently |
-|     without supervision   |
-+---------------------------+
-            |
-            v
-+---------------------------+
-|   Model Context Protocol  |
-|   - Collaborate effectively|
-|     with humans and agents |
-+---------------------------+
-            |
-            v
-+---------------------------+
-|   Modular Infrastructure  |
-|   - Adapt to complexity   |
-|   - Expand their impact   |
-+---------------------------+
-```
+- **LLM-powered Intelligence** 
+- **Model Context Protocol**: 
+- **Modular Infrastructure**: 
 
 ---
 **SyntropAI**: Empowering AI agents through systemic thinking and collaboration.
