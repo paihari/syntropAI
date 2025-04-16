@@ -1,5 +1,6 @@
 # Multicloud Platform Provisioner
 
+
 Building on the systemic thinking principles outlined in the **Empowered AI Agents** framework, the **Multicloud Platform Provisioner** embodies the key takeaways of autonomy, collaboration, and scalability. By leveraging these principles, the Provisioner ensures robust, adaptive, and efficient multicloud provisioning.
 
 - **Autonomy**: Each component (Executor, Legislator, Regulator) operates independently while contributing to the overall system's goals.
@@ -9,6 +10,20 @@ Building on the systemic thinking principles outlined in the **Empowered AI Agen
 ---
 
 The **Multicloud Platform Provisioner** is a tool designed to simplify the provisioning of infrastructure, platforms, and services across multiple cloud providers (Azure, AWS, and OCI). It is built with modular components to ensure flexibility, scalability, and adaptability to changes in cloud service catalogs.
+
+## Use Cases
+
+### 1. Infrastructure/Cloud Architects
+- **Objective**: Design and provision complex multicloud architectures.
+- **How**: Use the Provisioner to simplify and standardize resource provisioning across Azure, AWS, and OCI.
+
+### 2. DevOps Engineers
+- **Objective**: Automate and streamline resource provisioning across hyperscalers.
+- **How**: Leverage the Provisioner to execute repeatable workflows and ensure compliance with organizational standards.
+
+---
+
+
 
 ## Components
 
@@ -53,12 +68,6 @@ The **Provisioner** is built on the following foundational servers:
 
 5. **Memory Server**:
    - Stores conversation context for prompt-based provisioning.
-
-## Target Users
-
-The **Multicloud Platform Provisioner** is designed for:
-- **Infrastructure/Cloud Architects**: To design and provision complex multicloud architectures.
-- **DevOps Engineers**: To automate and streamline resource provisioning across hyperscalers.
 
 ---
 **SyntropAI**: Simplifying multicloud provisioning through innovation and systemic thinking.
