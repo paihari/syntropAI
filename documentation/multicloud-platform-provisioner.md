@@ -24,7 +24,6 @@ The **Multicloud Platform Provisioner** is a tool designed to simplify the provi
 ---
 
 
-
 ## Components
 
 ### 1. Executor
