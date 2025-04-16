@@ -37,7 +37,7 @@ Scalability is the natural progression of autonomy. To achieve scalability, we m
 
 ### Key Takeaway
 
-AI agents we build should combine the strengths of biological and human agents to become:
+AI agents should be built on:
 - **LLM-powered Intelligence** 
 - **Model Context Protocol**: 
 - **Modular Infrastructure**: 
