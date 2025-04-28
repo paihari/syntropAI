@@ -1,6 +1,9 @@
 # AI Cloud Hub
 
-Now with the concepts set, being mindful of the Context, this section dives into embracing into experimentation, because "Show, not only Tell" is important.
+Building on the **Key Takeaway** from the [Empowered AI Agents README](empowered-ai-agents.md):
+- AI agents should be **autonomous**, **collaborative**, and **scalable** to fully realize their potential.
+
+Now with the concepts set, being mindful of the Context, this section dives into embracing experimentation, because "Show, not only Tell" is important.
 
 With AI Agents empowered, the modern AI Agents have:
 
