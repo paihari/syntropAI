@@ -47,4 +47,4 @@ In the next section, we’ll explore the strengths that AI agents already posses
 
 To continue exploring how AI agents can be empowered to achieve systemic adaptability and collaboration, proceed to the next document:
 
-[Empowered AI Agent README](empowered-ai-agent.md)
+[Empowered AI Agent README](empowered-ai-agents.md)
