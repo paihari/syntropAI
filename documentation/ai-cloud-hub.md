@@ -1,4 +1,4 @@
-# AI powered Cloud Orchestrator
+# AI Cloud Hub
 
 Now with the concepts set, being mindful of the Context, this section dives into embracing into experimentation, because "Show, not only Tell" is important.
 
