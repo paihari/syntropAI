@@ -2,7 +2,7 @@
 
 Agents are fundamental building blocks of systems, interacting with their environment and contributing to the system's behavior and evolution. This document explores three key types of agents, their roles, and how AI agents can learn from them.
 
-![SyntropAI Agents](images/syntropAI-Agents.png)
+<img src="images/syntropAI-Agents.png" alt="SyntropAI Agents" width="50%">
 
 ## Top 3 Types of Agents
 
