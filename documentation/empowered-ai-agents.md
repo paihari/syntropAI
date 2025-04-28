@@ -43,7 +43,7 @@ Scalability is the natural progression of autonomy. To achieve scalability, we m
 |--------------|-----------------------------|----------------------------------------------|
 | Autonomy     | LLM-powered Intelligence    | Independent reasoning, learning, and action. |
 | Collaboration| Model Context Protocol (MCP)| Shared standards for agent-to-agent communication. |
-| Scalability  | Modular Infrastructure      | Distributed, resilient systems for growth.   |
+| Scalability  | Modular Solutions           | Distributed, resilient systems for growth.   |
 
 ---
 **SyntropAI**: Empowering AI agents through systemic thinking and collaboration.
