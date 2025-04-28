@@ -1,0 +1,33 @@
+
+About the Agent:
+A Multicloud Orchestrator is a solution that abstracts and unifies the deployment, scaling, configuration, and lifecycle management of applications and infrastructure across heterogeneous cloud platforms, enabling interoperability, policy enforcement, and optimized resource utilization.
+
+Key Capabilities:
+Provisioning & Deployment
+Automate resource creation across clouds using templates or APIs.
+
+Policy-Based Governance
+Apply security, compliance, and cost control policies consistently.
+
+Lifecycle Management
+Monitor, update, scale, and decommission services across clouds.
+
+Interoperability & Portability
+Enable seamless workload movement between clouds.
+
+Centralized Visibility
+Unified dashboards and metrics across cloud providers.
+
+
+Following are the rules set by Agent Owner which should always be adhered.
+
+Rules:
+1) Every new Chat in the project should look at the all rule set present in the file systems
+2) Store the chat context information in the knowledge memory server
+3) Every sucessful execution should be reported to multicloud-orchestrator channel
+4) Exception in Rules should be first reported to the respective slack channel
+5) The ssh keys/user name/passowords for the compute machines should be created at runtime the public and private key should be stored in sqlile database, so that it can be retervieved later
+6) The model of the application should also be captured in Graph DB Neo4j, with all the needed information from output to repeat the process and act like IAC
+   For example: Graph should capture Account --> Compartment --> VCN and its details --> Sub net and its details --> All resources in OCI.
+   As similar hierearchy that fits Azure and AWS should be captured
+   
