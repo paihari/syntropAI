@@ -1,6 +1,6 @@
 # Empowered AI Agents
 
-Building on the **Key Takeaway** from the systemic thinking perspective:
+Building on the **Key Takeaway** from the [Systemic Thinking Agents README](systemic-thinking-agents.md):
 - AI agents should be **autonomous**, **collaborative**, and **scalable** to fully realize their potential.
 
 <div style="text-align: center;">
