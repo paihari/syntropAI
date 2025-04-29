@@ -35,7 +35,7 @@ Below are short video recordings demonstrating real-world use cases:
 
 | Use Case                                  | Description                                                                 | Video Link         |
 |-------------------------------------------|-----------------------------------------------------------------------------|--------------------|
-| 🏗️ Azure Resource Group Creation          | Demonstrates agent-driven creation of a resource group within an Azure subscription. The user initiates the task via natural language, and the AI Cloud Hub executes the request autonomously. | [Watch Video](#)   |
+| 🏗️ Azure Resource Group Creation          | Demonstrates agent-driven creation of a resource group within an Azure subscription. The user initiates the task via natural language, and the AI Cloud Hub executes the request autonomously. | [Watch Video](video/01_01_Azure_Creation.mov)   |
 | 🌐 Create VNet and Virtual Machine         | Demonstrates creation of a virtual network followed by a virtual machine in Azure, using simple natural language commands. Once provisioned, resource details are retrieved and displayed. | [Watch Video](#)   |
 | 🗑️ List and Delete Azure Resources         | AI agent lists existing Azure resources and deletes them based on user instructions given in plain English, showcasing seamless lifecycle management. | [Watch Video](#)   |
 | 🗂️ Create Compartment in OCI               | Demonstrates creation of a new compartment in Oracle Cloud Infrastructure (OCI) using a natural language instruction. Highlights how SyntropAI enables straightforward cross-cloud resource provisioning through conversational AI. | [Watch Video](#)   |
