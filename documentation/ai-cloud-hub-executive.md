@@ -8,7 +8,7 @@ These integrations enable the AI agents to autonomously manage infrastructure re
 
 ## Integration Architecture
 
-![Integration of Executive Arm](.images/integrate-Executive.png)
+![Integration of Executive Arm](images/integrate-Executive.png)
 
 ### Key Components:
 
