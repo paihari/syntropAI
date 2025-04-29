@@ -23,9 +23,9 @@ These integrations enable AI agents to autonomously manage infrastructure resour
   - **Modular** — easily integrable across diverse cloud platforms
 
 - **Supported Cloud Platforms:**  
-  - Microsoft Azure  
-  - Amazon Web Services (AWS)  
-  - Oracle Cloud Infrastructure (OCI)
+  - Microsoft Azure — [GitHub Repo](https://github.com/simplificare-org/mcp-server-azure)  
+  - Amazon Web Services (AWS) — [GitHub Repo](https://github.com/simplificare-org/mcp-server-for-aws)  
+  - Oracle Cloud Infrastructure (OCI) — [GitHub Repo](https://github.com/simplificare-org/mcp-server-oci)
 
 ---
 
@@ -39,12 +39,4 @@ Below are short video recordings demonstrating real-world use cases:
 | 🔍 Real-time Cloud Inventory Lookup       | AI agent queries and lists resources across multicloud       | [Watch Video](#)    |
 | 🛡️ Apply Security Guardrails (CISO rules) | Enforce least-privilege access and tagging standards         | [Watch Video](#)    |
 
-> 🎥 *Videos are hosted on the internal demo portal or shared via secure link.*
-
----
-
-## Next Steps
-
-In the next section, we’ll explore the **Legislative Arm**, where governance, security, and financial rules are embedded as contextual constraints for AI agents.
-
----
+> 🎥 *Videos are*
