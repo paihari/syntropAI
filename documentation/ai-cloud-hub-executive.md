@@ -1,8 +1,8 @@
 # AI Cloud Hub: Integration of Executive Arm
 
-Building on the **Key Takeaways** from the [AI Cloud Hub: Introduction README](ai-cloud-hub.md), this section demonstrates how to technically integrate Executive Server components into the AI Cloud Hub using the **Model Context Protocol (MCP)**.
+Building on the **Key Takeaways** from the [AI Cloud Hub: Introduction README](ai-cloud-hub.md), this section demonstrates the technical integration of Executive Server components into the AI Cloud Hub using the **Model Context Protocol (MCP)**.
 
-These integrations enable the AI agents to autonomously manage infrastructure resources across cloud providers (Azure, AWS, OCI), with **modular**, **scalable**, and **self-developed** backend services.
+These integrations enable AI agents to autonomously manage infrastructure resources across cloud providers (Azure, AWS, OCI), supported by **modular**, **scalable**, and **self-developed** backend services.
 
 ---
 
@@ -13,14 +13,14 @@ These integrations enable the AI agents to autonomously manage infrastructure re
 ### Key Components:
 
 - **AI Cloud Hub (MCP Client):**  
-  Acts as the entry point for triggering operations through natural language, via an AI interface (e.g., Claude Desktop).
+  Serves as the entry point for triggering operations via natural language, using an AI interface (e.g., Claude Desktop).
 
 - **Executive Servers:**  
-  Agent-accessible services that abstract interactions with cloud infrastructure. They are:
-  - **Self-developed** for internal control,
-  - **Autonomous**, reacting to AI agent prompts,
-  - **Scalable**, to support growing workloads,
-  - **Modular**, allowing easy extension across clouds.
+  These agent-accessible services abstract interactions with cloud infrastructure. They are the only **self-developed** servers, designed to avoid hardcoding of any cloud-specific services. Their architecture supports full agnosticism to service changes, additions, or removals, ensuring flexibility and adaptability.
+  
+  - **Autonomous** — respond dynamically to AI agent prompts  
+  - **Scalable** — built to extend to other hyperscalers and on-prem environments  
+  - **Modular** — easily integrable across diverse cloud platforms
 
 - **Supported Cloud Platforms:**  
   - Microsoft Azure  
@@ -35,16 +35,16 @@ Below are short video recordings demonstrating real-world use cases:
 
 | Use Case                                  | Description                                                  | Link                |
 |-------------------------------------------|--------------------------------------------------------------|---------------------|
-| 🔁 Resource Creation via Claude Agent     | Create a new VM on Azure using AI agent prompt               | [Watch Video](#)    |
-| 🔍 Real-time Cloud Inventory Lookup       | AI agent lists resources across multicloud in real-time      | [Watch Video](#)    |
-| 🛡️ Apply Security Guardrails (CISO rules) | Enforcement of least-privilege access and tagging standards  | [Watch Video](#)    |
+| 🔁 Resource Creation via Claude Agent     | Create a new VM on Azure using an AI agent prompt            | [Watch Video](#)    |
+| 🔍 Real-time Cloud Inventory Lookup       | AI agent queries and lists resources across multicloud       | [Watch Video](#)    |
+| 🛡️ Apply Security Guardrails (CISO rules) | Enforce least-privilege access and tagging standards         | [Watch Video](#)    |
 
-> 🎥 *Videos are hosted on internal demo portal or shared link.*
+> 🎥 *Videos are hosted on the internal demo portal or shared via secure link.*
 
 ---
 
 ## Next Steps
 
-In the next section, we’ll explore the **Legislative Arm**, where governance, security, and financial rules are embedded as operating context for the AI agents.
+In the next section, we’ll explore the **Legislative Arm**, where governance, security, and financial rules are embedded as contextual constraints for AI agents.
 
 ---
