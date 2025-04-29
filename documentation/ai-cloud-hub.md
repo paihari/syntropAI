@@ -21,6 +21,10 @@ It features:
 
 In hybrid and multicloud environments, IT organizations face growing challenges in achieving operational efficiency, financial governance, and resilience across complex, distributed infrastructures.
 
+<div style="text-align: center;">
+    <img src="images/problem-statement.png" alt="Problem Statement" width="50%">
+</div>
+
 ### Key Challenges:
 
 - **Operational Complexity and Fragmentation**  
@@ -38,6 +42,10 @@ In hybrid and multicloud environments, IT organizations face growing challenges 
 
 The **AI Cloud Hub** aims to centralize infrastructure and platform operations across hybrid and multicloud environments — using **AI agents** to bring:
 
+<div style="text-align: center;">
+    <img src="images/vision-ai-cloud-hub.png" alt="Vision AI Cloud Hub" width="50%">
+</div>
+
 - **Operational Excellence** (through intelligent automation and collaboration),
 - **Security & Risk Alignment** (with CISO-led best practices),
 - **Cost Efficiency** (via FinOps principles)
@@ -50,9 +58,13 @@ The goal is to build a **Unified Operations Hub** — enabling IT, security, fin
 
 ---
 
-## Solution / Strategy
+## Foundational Principle/Solution approach
 
 At the core of AI Cloud Hub lies a principled systems approach. The following foundational principles and strategy elements guide both the design and implementation of agents, tools, and workflows:
+
+<div style="text-align: center;">
+    <img src="images/principles-agents.png" alt="Principles of Agents" width="50%">
+</div>
 
 | **Principle**         | **Strategy Element**                              |
 |-----------------------|---------------------------------------------------|
