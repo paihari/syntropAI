@@ -31,7 +31,7 @@ These integrations enable AI agents to autonomously manage infrastructure resour
 
 ## Use Case Demos
 
-Below are short video recordings demonstrating real-world use cases:
+Below are short video recordings with audio demonstrating real-world use cases:
 
 | Use Case                                  | Description                                                                 | Video Link         |
 |-------------------------------------------|-----------------------------------------------------------------------------|--------------------|
