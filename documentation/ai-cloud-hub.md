@@ -1,6 +1,6 @@
 # AI Cloud Hub
 
-Building on the **Key Takeaways** from the [Empowered AI Agents README](empowered-ai-agents.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
+Building on the **Key Takeaways** from the [Empowered AI Agents README](empowered-ai-agents-readme.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
 
 ## What This Is *Not*
 
@@ -22,7 +22,7 @@ It features:
 In hybrid and multicloud environments, IT organizations face growing challenges in achieving operational efficiency, financial governance, and resilience across complex, distributed infrastructures.
 
 <div style="text-align: center;">
-    <img src="images/problem-statement.png" alt="Problem Statement" width="50%">
+    <img src="images/problem-statement-Agents.png" alt="Problem Statement" width="50%">
 </div>
 
 ### Key Challenges:
@@ -43,7 +43,7 @@ In hybrid and multicloud environments, IT organizations face growing challenges 
 The **AI Cloud Hub** aims to centralize infrastructure and platform operations across hybrid and multicloud environments — using **AI agents** to bring:
 
 <div style="text-align: center;">
-    <img src="images/vision-ai-cloud-hub.png" alt="Vision AI Cloud Hub" width="50%">
+    <img src="images/vision-AI-Cloud-Hub.png" alt="Vision AI Cloud Hub" width="50%">
 </div>
 
 - **Operational Excellence** (through intelligent automation and collaboration),
@@ -63,7 +63,7 @@ The goal is to build a **Unified Operations Hub** — enabling IT, security, fin
 At the core of AI Cloud Hub lies a principled systems approach. The following foundational principles and strategy elements guide both the design and implementation of agents, tools, and workflows:
 
 <div style="text-align: center;">
-    <img src="images/principles-agents.png" alt="Principles of Agents" width="50%">
+    <img src="images/principles-Agents.png" alt="Principles of Agents" width="50%">
 </div>
 
 | **Principle**         | **Strategy Element**                              |
