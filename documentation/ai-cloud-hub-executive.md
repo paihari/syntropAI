@@ -35,13 +35,14 @@ Below are short video recordings demonstrating real-world use cases:
 
 | Use Case                                  | Description                                                                 | Video Link         |
 |-------------------------------------------|-----------------------------------------------------------------------------|--------------------|
-| 🏗️ Azure Resource Group Creation          | Demonstrates agent-driven creation of a resource group within an Azure subscription. The user initiates the task via natural language, and the AI Cloud Hub executes the request autonomously. | <a href="https://drive.google.com/file/d/1LqFyJv_Namo5_8ohU7lavKz1Phfryh5V/view?usp=drive_link" target="_blank">Watch Video</a>    |
+| 🏗️ Azure Resource Group Creation          | Demonstrates agent-driven creation of a resource group within an Azure subscription. The user initiates the task via natural language, and the AI Cloud Hub executes the request autonomously. | [Watch Video](https://drive.google.com/file/d/1LqFyJv_Namo5_8ohU7lavKz1Phfryh5V/view?usp=drive_link)     |
 | 🌐 Create VNet and Virtual Machine         | Demonstrates creation of a virtual network followed by a virtual machine in Azure, using simple natural language commands. Once provisioned, resource details are retrieved and displayed. | [Watch Video](#)   |
 | 🗑️ List and Delete Azure Resources         | AI agent lists existing Azure resources and deletes them based on user instructions given in plain English, showcasing seamless lifecycle management. | [Watch Video](#)   |
 | 🗂️ Create Compartment in OCI               | Demonstrates creation of a new compartment in Oracle Cloud Infrastructure (OCI) using a natural language instruction. Highlights how SyntropAI enables straightforward cross-cloud resource provisioning through conversational AI. | [Watch Video](#)   |
 | 🌐 Deploy Web Server on OCI Ampere VM       | AI agent provisions an OCI compute instance, configures a web server, adjusts network/firewall settings, and validates accessibility — all via simple English instructions. | [Watch Video](#)   |
 | 🌍 Multilingual and Autonomous Deletion in OCI | Demonstrates the AI agent's ability to process multilingual (German) instructions and autonomously discover, investigate, and safely delete complex infrastructure in OCI. Without prior knowledge of the environment, the agent identifies dependencies, orchestrates safe deletion of components, and removes the VCN safely. | [Watch Video](#)   |
 
-> 🎥 *Videos are hosted on the internal demo portal or shared via secure link.*
+> 🔗 *Clicking on video links will open them in the same window. Right-click and choose "Open Link in New Tab" for a better experience.*
+
 
 ---
