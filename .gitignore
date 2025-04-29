@@ -3,3 +3,4 @@ claude_config.json.bkp
 technical/tools/ai-agent-memory-store/memory.json
 technical/tools/certificate-store/certificate.db
 technical/tools/certificate-store/certificate.db
+.DS_Store

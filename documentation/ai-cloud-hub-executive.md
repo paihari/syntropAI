@@ -33,10 +33,15 @@ These integrations enable AI agents to autonomously manage infrastructure resour
 
 Below are short video recordings demonstrating real-world use cases:
 
-| Use Case                                  | Description                                                  | Link                |
-|-------------------------------------------|--------------------------------------------------------------|---------------------|
-| 🔁 Resource Creation via Claude Agent     | Create a new VM on Azure using an AI agent prompt            | [Watch Video](#)    |
-| 🔍 Real-time Cloud Inventory Lookup       | AI agent queries and lists resources across multicloud       | [Watch Video](#)    |
-| 🛡️ Apply Security Guardrails (CISO rules) | Enforce least-privilege access and tagging standards         | [Watch Video](#)    |
+| Use Case                                  | Description                                                                 | Video Link         |
+|-------------------------------------------|-----------------------------------------------------------------------------|--------------------|
+| 🏗️ Azure Resource Group Creation          | Demonstrates agent-driven creation of a resource group within an Azure subscription. The user initiates the task via natural language, and the AI Cloud Hub executes the request autonomously. | [Watch Video](#)   |
+| 🌐 Create VNet and Virtual Machine         | Demonstrates creation of a virtual network followed by a virtual machine in Azure, using simple natural language commands. Once provisioned, resource details are retrieved and displayed. | [Watch Video](#)   |
+| 🗑️ List and Delete Azure Resources         | AI agent lists existing Azure resources and deletes them based on user instructions given in plain English, showcasing seamless lifecycle management. | [Watch Video](#)   |
+| 🗂️ Create Compartment in OCI               | Demonstrates creation of a new compartment in Oracle Cloud Infrastructure (OCI) using a natural language instruction. Highlights how SyntropAI enables straightforward cross-cloud resource provisioning through conversational AI. | [Watch Video](#)   |
+| 🌐 Deploy Web Server on OCI Ampere VM       | AI agent provisions an OCI compute instance, configures a web server, adjusts network/firewall settings, and validates accessibility — all via simple English instructions. | [Watch Video](#)   |
+| 🌍 Multilingual and Autonomous Deletion in OCI | Demonstrates the AI agent's ability to process multilingual (German) instructions and autonomously discover, investigate, and safely delete complex infrastructure in OCI. Without prior knowledge of the environment, the agent identifies dependencies, orchestrates safe deletion of components, and removes the VCN safely. | [Watch Video](#)   |
 
-> 🎥 *Videos are*
+> 🎥 *Videos are hosted on the internal demo portal or shared via secure link.*
+
+---
