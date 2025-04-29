@@ -1,6 +1,6 @@
-# AI Cloud Hub
+# AI Cloud Hub: Introduction
 
-Building on the **Key Takeaways** from the [Empowered AI Agents README](empowered-ai-agents-readme.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
+Building on the **Key Takeaways** from the [Pillars of AI README](pillars-of-ai.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
 
 ## What This Is *Not*
 
