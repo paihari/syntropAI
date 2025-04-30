@@ -4,3 +4,6 @@ technical/tools/ai-agent-memory-store/memory.json
 technical/tools/certificate-store/certificate.db
 technical/tools/certificate-store/certificate.db
 .DS_Store
+technical/tools/certificate-store/ssh-key-2025-04-30.key
+technical/tools/certificate-store/ssh-key-2025-04-30.key.pub
+technical/tools/certificate-store/ssh-key-2025-04-30.key.txt
