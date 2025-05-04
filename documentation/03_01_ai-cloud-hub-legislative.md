@@ -42,7 +42,11 @@ The legislative layer enables:
 
 ## Introduced Legislative Knowledge
 
-As part of this exercise, the following **seven policy types** were introduced to shape the agent's behavior. These policies are defined in the following rule stores:
+As part of this exercise, the following **seven policy types** were introduced to shape agent behavior and enforce operational boundaries.
+
+> These policies are maintained in a **simple, human-readable format and grammar** — making them transparent, easy to review, and adaptable by non-technical stakeholders such as CISOs, FinOps teams, and Enterprise Architects.
+
+The policies are defined within the following **rule stores**:
 
 - **CISO Rule Store**: [technical/legislative/ciso-rule-store/rule-book.txt](../technical/tools/ciso-rule-store/rule-book.txt)  
   Contains security and compliance policies, such as enforcing private subnets and tagging requirements.
