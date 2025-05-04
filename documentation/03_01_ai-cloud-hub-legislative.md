@@ -17,17 +17,27 @@ The legislative layer enables:
 
 ---
 
-## Conceptual Architecture
+## Integration Architecture
 
-<div style="text-align: center;">
-    <img src="images/legislative-architecture.png" alt="Legislative Architecture" width="50%">
-</div>
+![Integration of Legislative Arm](images/integrate-legislative.png)
 
-- **Legislative Server** acts as the policy engine.
-- It communicates with Executive Servers via the **Model Context Protocol (MCP)**.
-- Policies are defined as structured rules, applied in real-time during provisioning, configuration, or deletion events.
-- All violations and exceptions are logged and routed to Slack channels for contextual human oversight.
+### Key Components
 
+- **AI Cloud Hub (MCP Client):**  
+  Serves as the interface for agent instructions, policies, and infrastructure requests. Acts as the central node that orchestrates interactions between executive, legislative, and regulatory components.
+
+- **Legislative Rule Store:**  
+  [GitHub Repo](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)  
+  A file-based rules engine that stores declarative policies. These policies are parsed and applied during agent execution, acting as programmable constraints and governance logic.
+
+- **Knowledge-Memory Servers:**  
+  [GitHub Repo](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)  
+  Maintain contextual and historical memory for agents. This includes applied policies, previous violations, and organization-wide standards that influence current decisions.
+
+- **Slack Notification Server:**  
+  [GitHub Repo](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)  
+  Integrates the policy enforcement system with Slack. Routes policy violations, exceptions, and provisioning summaries to designated channels (`#multicloud-orchestrator`, `#ciso-review`, `#finops-alerts`) for human oversight.
+  
 ---
 
 ## Introduced Legislative Knowledge
