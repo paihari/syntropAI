@@ -48,5 +48,16 @@ Create syntopAI-VCN in syntopAI-OCI compartment and provision a VM,
 also in Azure create syntopAI-VNet and provision a azure VM
 
 
-Create VCN syntopAI-VCN-foreign in syntropAI-Azure RG in US East Asburn and 
-VNet syntopAI-Vnet-foreign in Frankfurt region, at respective hyperscalers
+Create an VCN syntropAI-VCN-foreign in OCI syntropAI-OCI compartment
+the region should be US East Ashburn
+
+and also 
+Create an Vnet syntropAI-Vnet-foreign in Azure syntropAI-Azure RG
+the region should be Germany West Central
+
+
+I want you to find the cost/month of the resources running in syntropAI-OCI compartment in OCI
+and Dev subscription in Azure, assuming whatever is running 24/7 
+Report it to finops channel
+
+
