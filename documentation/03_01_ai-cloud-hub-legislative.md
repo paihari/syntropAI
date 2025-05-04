@@ -42,30 +42,39 @@ The legislative layer enables:
 
 ## Introduced Legislative Knowledge
 
-As part of this exercise, the following **seven policy types** were introduced to shape the agent's behavior:
+As part of this exercise, the following **seven policy types** were introduced to shape the agent's behavior. These policies are defined in the following rule stores:
+
+- **CISO Rule Store**: [technical/tools/ciso-rule-store/rule-book.txt](../technical/tools/ciso-rule-store/rule-book.txt)  
+  Contains security and compliance policies, such as enforcing private subnets and tagging requirements.
+
+- **FinOps Rule Store**: [technical/tools/finops-rule-store/rule-book.txt](../technical/tools/finops-rule-store/rule-book.txt)  
+  Includes cost governance rules, such as maximum VM configurations and approved regions.
+
+- **Agent Owner Rule Store**: [technical/tools/agent-rule-store/rule-book.txt](../technical/tools/agent-rule-store/rule-book.txt)  
+  Defines operational rules for agents, such as storing chat context in memory and reporting execution results.
 
 ### ✅ Resource Constraints
 1. **Approved VM Images**  
-   Only images that meet security standards are allowed for provisioning VMs.
+   Only images that meet security standards are allowed for provisioning VMs. (See CISO Rule Store)
 
 2. **Maximum VMs per VCN/VPC/VNet**  
-   Limits the number of compute instances per virtual network to avoid cost explosion and shadow infrastructure.
+   Limits the number of compute instances per virtual network to avoid cost explosion and shadow infrastructure. (See FinOps Rule Store)
 
 3. **Region Restrictions**  
-   Resources may only be provisioned in approved regions (e.g., Switzerland North, eu-frankfurt-1, us-west-2) for data residency and latency control.
+   Resources may only be provisioned in approved regions (e.g., Switzerland North, eu-frankfurt-1, us-west-2) for data residency and latency control. (See FinOps Rule Store)
 
 4. **Enforce Private Subnets for Data Resources**  
-   All data-related resources (e.g., storage buckets, databases) must be deployed in private subnets only.
+   All data-related resources (e.g., storage buckets, databases) must be deployed in private subnets only. (See CISO Rule Store)
 
 ### ✅ Governance & Reporting
 5. **Mandatory Tagging**  
-   All resources must be tagged with owner, cost center, and lifecycle metadata.
+   All resources must be tagged with owner, cost center, and lifecycle metadata. (See CISO Rule Store)
 
 6. **Violation Reporting**  
-   Any failure to adhere to policies results in a structured violation message, passed to the Slack channel for alerting and review.
+   Any failure to adhere to policies results in a structured violation message, passed to the Slack channel for alerting and review. (See Agent Owner Rule Store)
 
 7. **Resource Reporting**  
-   All created resources are logged and summarized in Slack for visibility across stakeholders (e.g., IT Ops, Security, Finance).
+   All created resources are logged and summarized in Slack for visibility across stakeholders (e.g., IT Ops, Security, Finance). (See Agent Owner Rule Store)
 
 ---
 
