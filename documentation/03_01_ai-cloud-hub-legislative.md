@@ -19,7 +19,7 @@ The legislative layer enables:
 
 ## Integration Architecture
 
-![Integration of Legislative Arm](images/integrate-legislative.png)
+![Integration of Legislative Arm](images/integrate-Legislative.png)
 
 ### Key Components
 
@@ -37,7 +37,7 @@ The legislative layer enables:
 - **Slack Notification Server:**  
   [GitHub Repo](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)  
   Integrates the policy enforcement system with Slack. Routes policy violations, exceptions, and provisioning summaries to designated channels (`#multicloud-orchestrator`, `#ciso-review`, `#finops-alerts`) for human oversight.
-  
+
 ---
 
 ## Introduced Legislative Knowledge
