@@ -1,0 +1,6 @@
+Agent Execution Rules (defined by the Agent Owner):
+
+1) On every new chat session, all rule set by owner, ciso and finops should be followed.
+2) Store chat context and user feedback in the executive knowledge memory server for future use.
+3) Report all successful executions to the multicloud-orchestrator Slack channel.
+4) Report rule violations or exceptions to the respective Slack channel.

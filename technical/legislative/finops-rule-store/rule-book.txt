@@ -1,0 +1,24 @@
+Following are the rules set by Finance Team which should always be adhered.
+If there are exceptions, where the rules could not followed.
+Send a message to the Teams Slack channel for approval
+
+1) Types of Compute machine to be used in OCI
+- Shape: VM.Standard.A1.Flex (ARM-based)
+- Size: 1 OCPU, 6GB Memory
+- OS: Oracle Linux 8
+
+2) Types of Compute machine to be used in Azure
+- Image: Ubuntu Server 20.04 LTS
+- Size: Standard B1ls (1 vcpu, 0.5 GiB memory)
+- Operating system: Linux (ubuntu 20.04)
+
+3) Types of Compute machine to be used in AWS
+- Image: Amazon Linux 2023 AMI
+- Architecture: 64-bit x86
+- Instance type: t2.micro
+
+4) Maximum number of Compute VMs permissable is 3 per VCN/VNet/VPC
+
+
+
+

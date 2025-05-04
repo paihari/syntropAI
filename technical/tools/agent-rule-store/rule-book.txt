@@ -23,7 +23,7 @@ Following are the rules set by Agent Owner which should always be adhered.
 
 Rules:
 1) Every new Chat in the project should look at the all rule set present in the file systems
-2) Store the chat context information in the knowledge memory server
+2) Store the chat context information in the knowledge memory server, also store any feedback given by user for future purposes
 3) Every sucessful execution should be reported to multicloud-orchestrator channel
 4) Exception in Rules should be first reported to the respective slack channel
 5) The ssh keys/user name/passowords for the compute machines should be created at runtime the public and private key should be stored in sqlile database, so that it can be retervieved later
@@ -31,3 +31,22 @@ Rules:
    For example: Graph should capture Account --> Compartment --> VCN and its details --> Sub net and its details --> All resources in OCI.
    As similar hierearchy that fits Azure and AWS should be captured
    
+
+
+5) Capture the application's execution model in a regulator-graph-store Neo4j graph database, including key output data, to support repeatability and infrastructure-as-code (IaC).
+    Example hierarchy for OCI: Tenant → Compartment → VCN → Subnet → Compute/Storage/Other Resources
+    Example hierarchy for Azure: Tenant → Subscription → Resource Group → Virtual Network (VNet) → Subnet → Resources (VMs, Storage, Functions, etc.)
+    Example hierarchy for AWS:  Account → Region → VPC → Subnet → Resources (EC2, S3, Lambda, etc.)
+    
+    Each node should include key metadata (e.g., IDs, names, types, tags), and relationships should reflect containment and network connectivity where applicable.
+
+
+
+
+
+Create syntopAI-VCN in syntopAI-OCI compartment and provision a VM, 
+also in Azure create syntopAI-VNet and provision a azure VM
+
+
+Create VCN syntopAI-VCN-foreign in syntropAI-Azure RG in US East Asburn and 
+VNet syntopAI-Vnet-foreign in Frankfurt region, at respective hyperscalers

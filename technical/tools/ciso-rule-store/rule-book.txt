@@ -6,8 +6,6 @@ Send a message to the Teams Slack channel
 - Enforce tagging policies for ownership, environment (dev/prod), sensitivity (public/internal/confidential), and cost center.
 
 2) Secure Network Topology by Design
-- Provisioning must comply with segmentation and zero trust architecture:
-- Private subnets for critical workloads.
 - Compute VMs should never be put in public subnet. For SSH connection Bastion to be used. For HTTP/S connection create a Application Loadbalancer
 
 
