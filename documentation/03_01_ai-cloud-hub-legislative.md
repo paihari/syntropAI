@@ -44,13 +44,13 @@ The legislative layer enables:
 
 As part of this exercise, the following **seven policy types** were introduced to shape the agent's behavior. These policies are defined in the following rule stores:
 
-- **CISO Rule Store**: [technical/tools/ciso-rule-store/rule-book.txt](../technical/tools/ciso-rule-store/rule-book.txt)  
+- **CISO Rule Store**: [technical/legislative/ciso-rule-store/rule-book.txt](../technical/tools/ciso-rule-store/rule-book.txt)  
   Contains security and compliance policies, such as enforcing private subnets and tagging requirements.
 
-- **FinOps Rule Store**: [technical/tools/finops-rule-store/rule-book.txt](../technical/tools/finops-rule-store/rule-book.txt)  
+- **FinOps Rule Store**: [technical/legislative/finops-rule-store/rule-book.txt](../technical/tools/finops-rule-store/rule-book.txt)  
   Includes cost governance rules, such as maximum VM configurations and approved regions.
 
-- **Agent Owner Rule Store**: [technical/tools/agent-rule-store/rule-book.txt](../technical/tools/agent-rule-store/rule-book.txt)  
+- **Agent Owner Rule Store**: [technical/legislative/owner-rule-store/rule-book.txt](../technical/tools/agent-rule-store/rule-book.txt)  
   Defines operational rules for agents, such as storing chat context in memory and reporting execution results.
 
 ### ✅ Resource Constraints
