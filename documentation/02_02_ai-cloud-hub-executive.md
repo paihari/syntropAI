@@ -49,4 +49,11 @@ Below are short video recordings with audio demonstrating real-world use cases:
 > 🔗 *Clicking on video links will open them in the same window. Right-click and choose "Open Link in New Tab" for a better experience.*
 
 
+
 ---
+
+## Key Takeaway
+
+The Executive Arm provides AI agents with the autonomy to act — but not in isolation. Through self-developed, cloud-agnostic services integrated via the Model Context Protocol (MCP), agents can provision, manage, and troubleshoot infrastructure across hyperscalers with natural language inputs.
+
+This operational layer forms the **execution backbone** of SyntropAI — setting the stage for systemic orchestration guided by legislative policy and regulatory oversight in the next section.
