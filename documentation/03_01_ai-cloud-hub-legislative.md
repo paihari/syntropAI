@@ -119,12 +119,12 @@ Below are short videos demonstrating how AI agents interact with policy rules du
 
 ## Key Takeaway
 
-Legislation provides the **guardrails** for autonomous AI agents.  
-Without it, scale becomes chaos.  
-With it, autonomy becomes aligned with business, security, and operational goals.
+Legislation provides the essential **guardrails** for autonomous Executive AI agents.  
+With these guardrails in place, autonomy becomes aligned with business strategy, security policies, and operational priorities.
 
-This README has shown how **legislative knowledge and enforcement** can be modeled, integrated, and operationalized in real-world AI agent systems.
+This README has demonstrated how **legislative knowledge and policy enforcement** can be modeled, integrated, and operationalized within real-world AI agent systems.
 
+In the next section, we’ll explore how to integrate the **Regulatory Pillar** — enabling oversight, reporting, and systemic accountability.
 ---
 
 **SyntropAI**: Governing AI-powered infrastructure through policy-driven systemic thinking.
