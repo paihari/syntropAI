@@ -4,3 +4,9 @@ Agent Execution Rules (defined by the Agent Owner):
 2) Store chat context and user feedback in the executive knowledge memory server for future use.
 3) Report all successful executions to the multicloud-orchestrator Slack channel.
 4) Report rule violations or exceptions to the respective Slack channel.
+5) Capture the application's execution model in a regulator-graph-store Neo4j graph database, including key output data, to support repeatability and infrastructure-as-code (IaC).
+    Example hierarchy for OCI: Tenant → Compartment → VCN → Subnet → Compute/Storage/Other Resources
+    Example hierarchy for Azure: Tenant → Subscription → Resource Group → Virtual Network (VNet) → Subnet → Resources (VMs, Storage, Functions, etc.)
+    Example hierarchy for AWS:  Account → Region → VPC → Subnet → Resources (EC2, S3, Lambda, etc.)
+    
+    Each node should include key metadata (e.g., IDs, names, types, tags), and relationships should reflect containment and network connectivity where applicable.
