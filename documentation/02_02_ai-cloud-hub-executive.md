@@ -1,6 +1,6 @@
 # AI Cloud Hub: Integration of Executive Arm
 
-Building on the **Key Takeaways** from the [AI Cloud Hub: Introduction README](ai-cloud-hub.md), this section demonstrates the technical integration of Executive Server components into the AI Cloud Hub using the **Model Context Protocol (MCP)**.
+Building on the **Key Takeaways** from the [AI Cloud Hub: Introduction README](02_01_ai-cloud-hub.md), this section demonstrates the technical integration of Executive Server components into the AI Cloud Hub using the **Model Context Protocol (MCP)**.
 
 These integrations enable AI agents to autonomously manage infrastructure resources across cloud providers (Azure, AWS, OCI), supported by **modular**, **scalable**, and **self-developed** backend services.
 

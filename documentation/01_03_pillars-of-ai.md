@@ -1,6 +1,6 @@
 # Pillars of Systemic AI
 
-Building on the **Key Takeaway** from the [Empowered AI Agents README](empowered-ai-agents.md):
+Building on the **Key Takeaway** from the [Empowered AI Agents README](01_02_empowered-ai-agents.md):
 
 Just as countries, organizations, and IT systems rely on foundational pillars for their success, empowered AI agent ecosystems must also be built on the same systemic principles.
 
