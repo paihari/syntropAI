@@ -40,11 +40,14 @@ AI agents we build should combine the strengths of bio and human agents to becom
 
 In the next section, we’ll explore the strengths that AI agents already possess—and identify the capabilities they still need to fully embody the systemic potential of biological and human agents.
 
----
-**SyntropAI**: Bridging systemic thinking and AI through the lens of agents.
+
 
 ## Next Steps
 
 To continue exploring how AI agents can be empowered to achieve systemic adaptability and collaboration, proceed to the next document:
 
-[Empowered AI Agent README](empowered-ai-agents.md)
+[Empowered AI Agent README](01_02_empowered-ai-agents.md)
+
+---
+**SyntropAI**: Bridging systemic thinking and AI through the lens of agents.
+---

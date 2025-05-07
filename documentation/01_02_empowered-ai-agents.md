@@ -1,6 +1,6 @@
 # Empowered AI Agents
 
-Building on the **Key Takeaway** from the [Systemic Thinking Agents README](systemic-thinking-agents.md):
+Building on the **Key Takeaway** from the [Systemic Thinking Agents README](01_01_systemic-thinking-agents.md):
 - AI agents should be **autonomous**, **collaborative**, and **scalable** to fully realize their potential.
 
 <div style="text-align: center;">
@@ -50,10 +50,13 @@ Scalability is the natural progression of autonomy. To achieve scalability, we m
 | Scalability  | Modular Solutions           | Distributed, resilient systems for growth.   |
 
 ---
-**SyntropAI**: Empowering AI agents through systemic thinking and collaboration.
 
 ## Next Steps
 
-To continue exploring how AI agents can drive multicloud provisioning, proceed to the following document:
+The next section explains that empowered AI agent ecosystems must be built on three systemic pillars—executive, legislative, and regulatory—mirroring resilient structures in human, biological, and digital systems to ensure scalable, governed, and trustworthy operations.
 
-[AI Cloud Hub README](ai-cloud-hub.md)
+[Pillars of Systemic AI](01_03_pillars-of-ai.md)
+
+---
+**SyntropAI**: Empowering AI agents through systemic thinking and collaboration.
+---
