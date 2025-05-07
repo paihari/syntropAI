@@ -50,4 +50,3 @@ To continue exploring how AI agents can be empowered to achieve systemic adaptab
 
 ---
 **SyntropAI**: Bridging systemic thinking and AI through the lens of agents.
----
