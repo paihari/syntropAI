@@ -59,4 +59,3 @@ The next section explains that empowered AI agent ecosystems must be built on th
 
 ---
 **SyntropAI**: Empowering AI agents through systemic thinking and collaboration.
----
