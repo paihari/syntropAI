@@ -1,6 +1,6 @@
 # AI Cloud Hub: Integration of Legislative Arm
 
-Building on the **Executive Arm** integration described in the [AI Cloud Hub: Executive README](ai-cloud-hub-executive.md), this section introduces the **Legislative Arm** — the system of **policies, constraints, and guidelines** that provide direction and boundaries for AI agents acting across multicloud environments.
+Building on the **Executive Arm** integration described in the [AI Cloud Hub: Executive README](02_02_ai-cloud-hub-executive.md), this section introduces the **Legislative Arm** — the system of **policies, constraints, and guidelines** that provide direction and boundaries for AI agents acting across multicloud environments.
 
 Where the Executive Servers act, the Legislative Servers **govern** — defining what is allowed, what must be enforced, and how exceptions are handled.
 

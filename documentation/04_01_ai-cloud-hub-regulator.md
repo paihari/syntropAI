@@ -1,6 +1,6 @@
 # AI Cloud Hub: Integration of Regulatory Arm
 
-Building on the **Legislative Arm** detailed in the [AI Cloud Hub: Legislative README](ai-cloud-hub-legislative.md), this section introduces the **Regulatory Arm** — the layer of oversight, memory, and accountability that ensures AI agents operate within observable and trustworthy boundaries.
+Building on the **Legislative Arm** detailed in the [AI Cloud Hub: Legislative README](03_01_ai-cloud-hub-legislative.md), this section introduces the **Regulatory Arm** — the layer of oversight, memory, and accountability that ensures AI agents operate within observable and trustworthy boundaries.
 
 Where the Executive Servers act and the Legislative Servers guide, the **Regulatory Servers verify, record, and report** — closing the loop on explainability, compliance, and systemic assurance.
 
@@ -8,7 +8,7 @@ Where the Executive Servers act and the Legislative Servers guide, the **Regulat
 
 ## What This Is
 
-This component realizes the **“Competent and Trust-Building Regulatory Arm”** described in the [Pillars of Systemic AI README](pillars-of-ai.md).
+This component realizes the **“Competent and Trust-Building Regulatory Arm”** described in the [Pillars of Systemic AI README](01_03_pillars-of-ai.md).
 
 It enables:
 - **Shared memory and traceability** across executions,
@@ -109,8 +109,7 @@ Below are short videos demonstrating how AI agents implement regulatory intellig
 The Regulatory Arm transforms operational transparency from an afterthought into a design principle.  
 It empowers AI agents to be not only effective and compliant — but also trustworthy, reviewable, and self-aware.
 
-In the next section, we’ll explore how these three arms come together through a working prototype of the **AI Cloud Hub**.
 
 ---
 
-**SyntropAI**: Building systemic trust into AI orchestration through memory, monitoring, and reporting.
+**SyntropAI**: Building systemic trust into AI orchestration through regulation, monitoring, and reporting.
