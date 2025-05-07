@@ -25,21 +25,22 @@ To enable sustainable success, every resilient system—whether biological, huma
 
 ### Key Takeaway
 
-The three-part conceptual series — **"Agents in Systemic Thinking," "Empowered AI Agents,"** and **"Pillars of Systemic AI"** — establishes a foundational background in systemic thinking and design thinking for AI agent ecosystems.
+The three-part conceptual series — **"Agents in Systemic Thinking," "Empowered AI Agents,"** and **"Pillars of Systemic AI"** — establishes a foundational understanding of systemic thinking and design thinking as applied to AI agent ecosystems.
 
-One of the pioneers of Design Thinking, the Hasso Plattner Institute of Design at Stanford (celebrating its centenary soon), identifies seven core mindsets for innovation. The first among them is "Show, Don't Tell" — or in modern adaptation, "Show and Tell."
+One of the pioneers of Design Thinking, the Hasso Plattner Institute of Design at Stanford (celebrating its centenary soon), outlines seven core mindsets for innovation. The first among them is "Show, Don't Tell" — or in its modern adaptation, "Show and Tell."
 
-Embracing this mindset, SyntropAI will now move beyond conceptual frameworks into **experimentation** — demonstrating how AI agents can address business challenges:  
+Embracing this mindset, SyntropAI now moves beyond conceptual frameworks into **experimentation** — demonstrating how AI agents can address real-world business challenges:  
 - Some that were previously unsolvable,  
 - Others that can now be approached in fundamentally new ways.
 
 This transition marks the beginning of the next phase: moving from theory to practice, guided by systemic thinking and design-driven innovation.
 
-The following diagram provides an overview of this next stage.
+The following diagram illustrates how we will incorporate the **technical architecture** built on the foundation of these conceptual ideas — showing how we will integrate platforms, business processes, and communication channels across the enterprise.
 
 <div style="text-align: center;">
-    <img src="images/ai-cloud-hub-intro.png" alt="AI Cloud Hub Intro" width="50%">
+    <img src="images/building-blocks-AI-Cloud-Hub.png" alt="AI Cloud Hub Intro" width="50%">
 </div>
+
 
 ---
 **SyntropAI**: Simplifying multicloud provisioning through innovation and systemic thinking.

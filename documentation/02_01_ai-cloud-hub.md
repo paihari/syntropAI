@@ -1,11 +1,11 @@
 # AI Cloud Hub: Introduction
 
-Building on the **Key Takeaways** from the [Pillars of AI README](pillars-of-ai.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
+Building on the **Key Takeaways** from the [Pillars of AI README](01_03_pillars-of-ai.md), this syntropAI applies those concepts to a real-world business case through **organic experimentation and system thinking**.
 
 ## What This Is *Not*
 
 - Not a checklist of tools or platforms.
-- Not a showcase or marketplace of technologies.
+- Not a showcase of comparison between tools, strengths and weekness
 
 ## What This *Is*
 
@@ -40,11 +40,11 @@ In hybrid and multicloud environments, IT organizations face growing challenges 
 
 ## Vision Statement
 
-The **AI Cloud Hub** aims to centralize infrastructure and platform operations across hybrid and multicloud environments — using **AI agents** to bring:
-
 <div style="text-align: center;">
     <img src="images/vision-AI-Cloud-Hub.png" alt="Vision AI Cloud Hub" width="50%">
 </div>
+
+The **AI Cloud Hub** aims to centralize infrastructure and platform operations across hybrid and multicloud environments — using **AI agents** to bring:
 
 - **Operational Excellence** (through intelligent automation and collaboration),
 - **Security & Risk Alignment** (with CISO-led best practices),
