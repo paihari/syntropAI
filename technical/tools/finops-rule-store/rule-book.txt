@@ -1,7 +1,0 @@
-Following are the rules set by Finance Team which should always be adhered.
-If there are exceptions, where the rules could not followed.
-Send a message to the Teams Slack channel
-
-1) Types of Compute machine to be used
-- Ampere A1 (Arm-based) Instances
-- Mamimum of 4 OCPUs and 24 GB RAM / Compute
