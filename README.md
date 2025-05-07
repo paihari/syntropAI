@@ -24,33 +24,18 @@ By leveraging these systemic principles, **SyntropAI** aims to create AI solutio
 Systemic thinking is a holistic approach to understanding how different parts of a system interact and influence one another. By integrating systemic thinking with AI, we aim to address real-world challenges in a structured and innovative manner.
 
 This repository is organized into two main sections:
-1. **Conceptual Artifacts**: Theoretical models, frameworks, and documentation that explain systemic thinking principles and their relevance to AI.
-2. **Technical Artifacts**: Code, algorithms, and tools that implement systemic thinking concepts in AI-driven solutions.
+1. **Conceptual Section**: Explain systemic thinking principles and their relevance to AI.
 
-## Repository Structure
+   - [Systemic Thinking and Agents](documentation/01_01_systemic-thinking-agents.md): Introduces the principles of systemic thinking and their relevance to AI agents.
+   - [Empowered AI Agents](documentation/01_02_empowered-ai-agents.md): Discusses how AI agents can be designed to operate autonomously and effectively within systemic frameworks.
+   - [Pillars of Systemic AI](documentation/01_03_pillars-of-ai.md): Highlights the three foundational pillars required for building resilient AI agent ecosystems.
 
-```
-syntropAI/
-├── conceptual/
-│   ├── frameworks/
-│   ├── case-studies/
-│   └── documentation/
-├── technical/
-│   ├── models/
-│   ├── algorithms/
-│   └── tools/
-└── README.md
-```
+2. **Technical Section**: Integration Architecture, Key Components, use case demos, and tools that implement systemic thinking concepts in AI-driven solutions.
 
-### 1. Conceptual Artifacts
-- **Frameworks**: Systemic thinking models and methodologies.
-- **Case Studies**: Real-world examples demonstrating systemic thinking in action.
-- **Documentation**: Detailed explanations of concepts and their applications.
-
-### 2. Technical Artifacts
-- **Models**: AI models designed with systemic thinking principles.
-- **Algorithms**: Code implementations of systemic approaches to problem-solving.
-- **Tools**: Utilities and libraries to support systemic AI development.
+   - [AI Cloud Hub](documentation/02_01_ai-cloud-hub.md): Provides an overview of the AI Cloud Hub architecture, its components, and its role in enabling multicloud orchestration.
+   - [AI Cloud Hub: Executive Arm](documentation/02_02_ai-cloud-hub-executive.md): Details the integration of the Executive Arm, focusing on autonomous infrastructure provisioning and execution.
+   - [AI Cloud Hub: Legislative Arm](documentation/03_01_ai-cloud-hub-legislative.md): Explains the integration of the Legislative Arm, focusing on policy enforcement, governance, and operational boundaries.
+   - [AI Cloud Hub: Regulatory Arm](documentation/04_01_ai-cloud-hub-regulator.md): Describes the integration of the Regulatory Arm, emphasizing oversight, accountability, and continuous improvement.
 
 ## Guiding Principles: The Rule of 3
 
@@ -73,35 +58,6 @@ The "Rule of 3" is evident in patterns and supported by studies. It provides a b
 This guiding principle ensures clarity, focus, and harmony in both conceptual and technical outputs.
 
 Additionally, the book *Deep Work: Rules for Focused Success in a Distracted World* suggests that 3 cognitively demanding topics are a realistic upper limit. While I have not read this book, its premise complements the idea in general.
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/syntropAI.git
-   cd syntropAI
-   ```
-
-2. Explore the `conceptual/` and `technical/` directories to understand the content.
-
-3. Run the technical examples:
-   - Navigate to the `technical/` directory.
-   - Follow the instructions in the respective subdirectories.
-
-## Contributing
-
-We welcome contributions from the community! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Submit a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For questions or suggestions, please open an issue or contact the repository maintainers.
 
 ---
 **SyntropAI**: Where systemic thinking meets AI to solve complex problems.
