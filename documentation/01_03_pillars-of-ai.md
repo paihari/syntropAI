@@ -41,6 +41,12 @@ The following diagram illustrates how we will incorporate the **technical archit
     <img src="images/building-blocks-AI-Cloud-Hub.png" alt="AI Cloud Hub Intro" width="50%">
 </div>
 
+---
+## Next Steps
+
+Next section provides an overview of the AI Cloud Hub architecture, its components, and its role in enabling multicloud orchestration.
+
+[AI Cloud Hub](02_01_ai-cloud-hub.md)
 
 ---
 **SyntropAI**: Simplifying multicloud provisioning through innovation and systemic thinking.
