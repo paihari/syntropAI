@@ -12,10 +12,11 @@ This name reflects the repository's focus on:
 
 ### Relevance to Systemic Thinking and Design
 
-In systemic models, such as fractals, hierarchies, or modular designs, patterns often repeat at different levels of abstraction. These recurring patterns are not mere mirrors but maintain their orientation and purpose across scales. This principle is central to:
-- **Fractal Systems**: Structures that replicate similar patterns at micro and macro levels.
-- **Hierarchical Models**: Systems where components are nested within larger systems, maintaining coherence.
-- **Modular Designs**: Independent components that integrate seamlessly into a larger whole.
+In well-designed systems, patterns often repeat across levels — from small components to large architectures. These recurring patterns are not just visual echoes; they carry consistent meaning and function at every scale.
+
+- **Nested Systems**: Small parts fit within larger structures while preserving their role.
+- **Hierarchical Models**: Each layer builds on the one below, maintaining coherence.
+- **Modular Designs**: Independent pieces work together as part of a larger system.
 
 By leveraging these systemic principles, **SyntropAI** aims to create AI solutions that are robust, scalable, and aligned with the natural order of complex systems.
 
