@@ -61,3 +61,19 @@ and Dev subscription in Azure, assuming whatever is running 24/7
 Report it to finops channel
 
 
+
+
+In AWS syntropAI-VPC  , In syntropAI-VCN  and In Azure syntropAI-Vnet
+Give the cost of running the resources currently existing if it runs 24/7
+What is the per month cost
+
+Store the report in /projects/regulator-report-store/finops-reports
+Send the the full report of Finops Slack channel
+
+For all resources in syntropAI-VPC, syntropAI-VCN, syntropAI-Vnet
+Create a Detailed System Security Plan in oscal
+Store it in /projects/regulator-report-store/oscal-report-store 
+And send you know what to CISO channel
+Also add a wink at the end
+
+
