@@ -1,25 +1,855 @@
 {
+  `path`: `/projects/regulator-report-store/oscal-report-store/syntropAI-multicloud-ssp.json`,
+  `content`: `{
   "system-security-plan": {
-    "uuid": "00f7b169-6ed8-46ba-8622-3e0d3b9e8bf2",
+    "uuid": "8a9e15bb-4f31-4d7c-9ec3-d2a0b6d1f392",
     "metadata": {
-      "title": "Anonymized-e78a5f0e",
+      "title": "SyntropAI Multi-Cloud System Security Plan",
+      "last-modified": "2025-05-07T10:30:00Z",
+      "version": "1.0",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "system-owner",
+          "title": "System Owner",
+          "description": "Responsible for the overall system"
+        },
+        {
+          "id": "system-admin",
+          "title": "System Administrator",
+          "description": "Manages system configuration"
+        },
+        {
+          "id": "security-officer",
+          "title": "Information Security Officer",
+          "description": "Oversees security operations"
+        }
+      ],
       "parties": [
         {
-          "uuid": "2e378ed9-4f74-4f8d-ac17-deb177c488de",
+          "uuid": "7c30052a-d9eb-4f38-a560-c61c6f133f6b",
           "type": "organization",
-          "name": "Anonymized-bf3a9802",
+          "name": "SyntropAI",
           "addresses": [
             {
               "addr-lines": [
                 "Lilienweg 9"
               ],
-              "city": "REDACTED",
-              "postal-code": "REDACTED",
+              "city": "Otelfingen",
+              "postal-code": "8112",
               "country": "CH"
             }
           ]
         }
+      ],
+      "responsible-parties": [
+        {
+          "role-id": "system-owner",
+          "party-uuids": [
+            "7c30052a-d9eb-4f38-a560-c61c6f133f6b"
+          ]
+        }
       ]
-    }
-  }
-}
+    },
+    "import-profile": {
+      "href": "https://raw.githubusercontent.com/usnistgov/OSCAL/main/content/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_MODERATE-baseline_profile.json"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": "syntropAI-multicloud-system",
+          "identifier-type": "https://syntropai.com/identifiers/system"
+        }
+      ],
+      "system-name": "SyntropAI Multicloud Orchestrator",
+      "description": "A multicloud system with resources spanning AWS, OCI, and Azure cloud platforms",
+      "security-sensitivity-level": "moderate",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "Operational Data",
+            "description": "System operational and administrative data",
+            "confidentiality-impact": {
+              "base": "moderate"
+            },
+            "integrity-impact": {
+              "base": "moderate"
+            },
+            "availability-impact": {
+              "base": "moderate"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "moderate",
+        "security-objective-integrity": "moderate",
+        "security-objective-availability": "moderate"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "The authorization boundary includes all resources in the syntropAI-VPC (AWS), syntropAI-VCN (OCI), and syntropAI-Vnet (Azure) networks."
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "45087609-c0e4-4502-be56-6d9527158a9d",
+          "role-ids": [
+            "system-admin"
+          ],
+          "authorized-privileges": [
+            {
+              "title": "Cloud Resource Management",
+              "functions-performed": [
+                "Create, update, and delete resources",
+                "Configure security settings",
+                "Monitor system performance"
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "f01bbf4d-d1fb-4a5f-881d-1dbaa42e8f09",
+          "role-ids": [
+            "security-officer"
+          ],
+          "authorized-privileges": [
+            {
+              "title": "Security Management",
+              "functions-performed": [
+                "Review security logs",
+                "Manage security policies",
+                "Respond to security incidents"
+              ]
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "uuid": "e2d4f6g8-h0j2-k4l6-m8n0-p2q4r6s8t0u2",
+          "type": "image",
+          "title": "AWS Golden Images",
+          "description": "Tamper-proof AWS AMIs for SyntropAI workloads",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "image-id",
+              "value": "ami-12345abcde67890fg"
+            },
+            {
+              "name": "image-name",
+              "value": "syntropAI-golden-image-amazon-linux-2025"
+            },
+            {
+              "name": "image-owner",
+              "value": "123456789012"
+            },
+            {
+              "name": "image-creation-date",
+              "value": "2025-04-10T18:30:00Z"
+            },
+            {
+              "name": "image-verification",
+              "value": "signature-verified"
+            },
+            {
+              "name": "image-hash",
+              "value": "sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
+            },
+            {
+              "name": "image-compliance",
+              "value": "CIS-Amazon-Linux-2-Benchmark-v2.0.0"
+            },
+            {
+              "name": "provider",
+              "value": "AWS"
+            },
+            {
+              "name": "sla-requirement",
+              "value": "99.99% uptime"
+            }
+          ]
+        },
+        {
+          "uuid": "17e456d8-a5d7-4e8a-a52c-91c0a5bc8089",
+          "type": "network",
+          "title": "AWS Virtual Private Cloud",
+          "description": "AWS VPC providing isolated network environment",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "vpc-id",
+              "value": "vpc-abcdef1234567890"
+            },
+            {
+              "name": "cidr-block",
+              "value": "10.0.0.0/16"
+            },
+            {
+              "name": "provider",
+              "value": "AWS"
+            }
+          ]
+        },
+        {
+          "uuid": "9c09e7e4-88a1-45c8-93d4-9b4e9f9b3a1d",
+          "type": "network",
+          "title": "OCI Virtual Cloud Network",
+          "description": "Oracle Cloud Infrastructure VCN providing isolated network",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "vcn-id",
+              "value": "ocid1.vcn.oc1.dummy-region-1.aaaaaaaabbbbbcccccdddddeeeeefffff1111122222"
+            },
+            {
+              "name": "cidr-block",
+              "value": "10.0.0.0/16"
+            },
+            {
+              "name": "provider",
+              "value": "OCI"
+            }
+          ]
+        },
+        {
+          "uuid": "3a8b4e1c-2f7d-4a9c-8e5d-6c7b9d8a1e2f",
+          "type": "network",
+          "title": "Azure Virtual Network",
+          "description": "Azure VNet providing isolated network environment",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "subscription-id",
+              "value": "01234567-89ab-cdef-0123-456789abcdef"
+            },
+            {
+              "name": "vnet-id",
+              "value": "abcdef12-3456-7890-abcd-ef1234567890"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "address-space",
+              "value": "10.0.0.0/16"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "a4b5c6d7-e8f9-0a1b-2c3d-4e5f6g7h8i9j",
+          "type": "network-subnet",
+          "title": "Azure Primary Subnet",
+          "description": "Primary subnet for application tier in Azure VNet",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "subnet-name",
+              "value": "PrimarySubnet"
+            },
+            {
+              "name": "address-prefix",
+              "value": "10.0.1.0/24"
+            },
+            {
+              "name": "nsg-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Network/networkSecurityGroups/syntropAI-PrimaryNSG"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            }
+          ]
+        },
+        {
+          "uuid": "k1l2m3n4-o5p6-q7r8-s9t0-u1v2w3x4y5z6",
+          "type": "network-subnet",
+          "title": "Azure Secondary Subnet",
+          "description": "Secondary subnet for data tier in Azure VNet",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "subnet-name",
+              "value": "SecondarySubnet"
+            },
+            {
+              "name": "address-prefix",
+              "value": "10.0.2.0/24"
+            },
+            {
+              "name": "nsg-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Network/networkSecurityGroups/syntropAI-SecondaryNSG"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            }
+          ]
+        },
+        {
+          "uuid": "51a92e7b-8c6d-4f3e-9a1d-7e8b9c0d1e2f",
+          "type": "security-group",
+          "title": "AWS Security Group",
+          "description": "AWS security group controlling traffic to resources",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "security-group-id",
+              "value": "sg-0123456789abcdef0"
+            },
+            {
+              "name": "provider",
+              "value": "AWS"
+            }
+          ]
+        },
+        {
+          "uuid": "23f5c6d7-1e8a-4b9c-7d6e-5f4e3d2c1b0a",
+          "type": "security-group",
+          "title": "OCI Security List",
+          "description": "OCI security list controlling traffic to resources",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "security-list-id",
+              "value": "ocid1.securitylist.oc1.dummy-region-1.aaaaabbbbbcccccdddddeeeeefffff11111222223333"
+            },
+            {
+              "name": "provider",
+              "value": "OCI"
+            }
+          ]
+        },
+        {
+          "uuid": "78e9f0a1-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+          "type": "security-group",
+          "title": "Azure Primary Network Security Group",
+          "description": "Azure NSG controlling traffic to Primary Subnet resources",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "nsg-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Network/networkSecurityGroups/syntropAI-PrimaryNSG"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "security-rule-1",
+              "value": "AllowHTTPS: TCP/443 from Internet"
+            },
+            {
+              "name": "security-rule-2",
+              "value": "AllowSSH: TCP/22 from VNet only"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+          "type": "security-group",
+          "title": "Azure Secondary Network Security Group",
+          "description": "Azure NSG controlling traffic to Secondary Subnet resources",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "nsg-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Network/networkSecurityGroups/syntropAI-SecondaryNSG"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "security-rule-1",
+              "value": "AllowInternalTraffic: All from PrimarySubnet"
+            },
+            {
+              "name": "security-rule-2",
+              "value": "DenyInternetOutbound: Deny all to Internet"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "a1b2c3d4-e5f6-4a3b-2c1d-5e4f3a2b1c0d",
+          "type": "compute",
+          "title": "OCI Compute Instances",
+          "description": "OCI virtual machines running application workloads",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "instance-count",
+              "value": "3"
+            },
+            {
+              "name": "instance-type",
+              "value": "VM.Standard.A1.Flex"
+            },
+            {
+              "name": "provider",
+              "value": "OCI"
+            },
+            {
+              "name": "image-id-1",
+              "value": "ocid1.image.oc1.dummy-region-1.aaaaaaabbbbbcccccdddddeeeeeffffff111112222233333"
+            },
+            {
+              "name": "image-name-1",
+              "value": "Oracle-Linux-8.10-aarch64-2025.04.16-0"
+            },
+            {
+              "name": "image-id-2",
+              "value": "ocid1.image.oc1.dummy-region-1.zzzzzzyyyyyyyyxxxxxxxxxwwwwwwwwvvvvvvvvuuuuuuuu"
+            },
+            {
+              "name": "image-name-2",
+              "value": "Oracle-Linux-9.5-aarch64-2025.04.16-0"
+            },
+            {
+              "name": "image-verification",
+              "value": "tamper-proof-verified"
+            },
+            {
+              "name": "image-compliance",
+              "value": "DISA-STIG-OL8-V1R12"
+            },
+            {
+              "name": "sla-requirement",
+              "value": "99.95% uptime"
+            }
+          ]
+        },
+        {
+          "uuid": "p9o8i7u6-y5t4-3r2e-1w2q-3e4r5t6y7u8i",
+          "type": "compute",
+          "title": "Azure Primary Virtual Machine",
+          "description": "Azure VM running application workloads in the Primary Subnet",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "vm-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Compute/virtualMachines/syntropAI-vm1"
+            },
+            {
+              "name": "vm-name",
+              "value": "syntropAI-vm1"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "vm-size",
+              "value": "Standard_D4s_v3"
+            },
+            {
+              "name": "subnet",
+              "value": "PrimarySubnet"
+            },
+            {
+              "name": "private-ip",
+              "value": "10.0.1.4"
+            },
+            {
+              "name": "os-type",
+              "value": "Linux"
+            },
+            {
+              "name": "image-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Compute/images/syntropAI-golden-image-ubuntu-2204"
+            },
+            {
+              "name": "image-publisher",
+              "value": "Canonical"
+            },
+            {
+              "name": "image-offer",
+              "value": "UbuntuServer"
+            },
+            {
+              "name": "image-sku",
+              "value": "22.04-LTS"
+            },
+            {
+              "name": "image-version",
+              "value": "2025.04.15"
+            },
+            {
+              "name": "image-hash",
+              "value": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+            },
+            {
+              "name": "image-verification",
+              "value": "signature-verified"
+            },
+            {
+              "name": "image-compliance-status",
+              "value": "Compliant"
+            },
+            {
+              "name": "image-compliance-standard",
+              "value": "CIS-Microsoft-Azure-Foundations-v2.0.0"
+            },
+            {
+              "name": "sla-requirement",
+              "value": "99.95% uptime"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "q1w2e3r4-t5y6-u7i8-o9p0-a1s2d3f4g5h6",
+          "type": "compute",
+          "title": "Azure Secondary Virtual Machine",
+          "description": "Azure VM running data services in the Secondary Subnet",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "vm-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Compute/virtualMachines/syntropAI-vm2"
+            },
+            {
+              "name": "vm-name",
+              "value": "syntropAI-vm2"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "vm-size",
+              "value": "Standard_D8s_v3"
+            },
+            {
+              "name": "subnet",
+              "value": "SecondarySubnet"
+            },
+            {
+              "name": "private-ip",
+              "value": "10.0.2.5"
+            },
+            {
+              "name": "os-type",
+              "value": "Linux"
+            },
+            {
+              "name": "image-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.Compute/images/syntropAI-golden-image-ubuntu-2204"
+            },
+            {
+              "name": "image-publisher",
+              "value": "Canonical"
+            },
+            {
+              "name": "image-offer",
+              "value": "UbuntuServer"
+            },
+            {
+              "name": "image-sku",
+              "value": "22.04-LTS"
+            },
+            {
+              "name": "image-version",
+              "value": "2025.04.15"
+            },
+            {
+              "name": "image-hash",
+              "value": "sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+            },
+            {
+              "name": "image-verification",
+              "value": "signature-verified"
+            },
+            {
+              "name": "image-compliance-status",
+              "value": "Compliant"
+            },
+            {
+              "name": "image-compliance-standard",
+              "value": "CIS-Microsoft-Azure-Foundations-v2.0.0"
+            },
+            {
+              "name": "sla-requirement",
+              "value": "99.95% uptime"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "r5s6t7u8-v9w0-x1y2-z3a4-b5c6d7e8f9g0",
+          "type": "security",
+          "title": "Azure Key Vault",
+          "description": "Azure Key Vault for storing verification keys and certificates",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "key-vault-id",
+              "value": "/subscriptions/01234567-89ab-cdef-0123-456789abcdef/resourceGroups/syntropAI-RG/providers/Microsoft.KeyVault/vaults/syntropAI-keyvault"
+            },
+            {
+              "name": "key-vault-name",
+              "value": "syntropAI-keyvault"
+            },
+            {
+              "name": "resource-group",
+              "value": "syntropAI-RG"
+            },
+            {
+              "name": "location",
+              "value": "eastus"
+            },
+            {
+              "name": "sku",
+              "value": "Premium"
+            },
+            {
+              "name": "tenant-id",
+              "value": "fedcba98-7654-3210-fedc-ba9876543210"
+            },
+            {
+              "name": "enabled-for-deployment",
+              "value": "true"
+            },
+            {
+              "name": "enabled-for-disk-encryption",
+              "value": "true"
+            },
+            {
+              "name": "enabled-for-template-deployment",
+              "value": "true"
+            },
+            {
+              "name": "soft-delete-enabled",
+              "value": "true"
+            },
+            {
+              "name": "purge-protection-enabled",
+              "value": "true"
+            },
+            {
+              "name": "purpose",
+              "value": "Stores verification keys and certificates for image signing and validation"
+            },
+            {
+              "name": "provider",
+              "value": "Azure"
+            }
+          ]
+        },
+        {
+          "uuid": "m5n6b7v8-c9x0-z1a2-3s4d-5f6g7h8j9k0l",
+          "type": "orchestration",
+          "title": "MultiCloud Orchestrator",
+          "description": "Centralized management and orchestration system for multi-cloud resources",
+          "status": {
+            "state": "operational"
+          },
+          "properties": [
+            {
+              "name": "version",
+              "value": "2.5.0"
+            },
+            {
+              "name": "supports-regulatory-compliance",
+              "value": "yes"
+            },
+            {
+              "name": "image-verification-enforcement",
+              "value": "yes"
+            },
+            {
+              "name": "sla-monitoring",
+              "value": "enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "Implementation of controls for the SyntropAI MultiCloud System with emphasis on tamper-proof image verification for SLA maintenance",
+      "implemented-requirements": [
+        {
+          "uuid": "e8d25ad4-7041-4ce2-9b9c-48f5673b3a13",
+          "control-id": "ac-2",
+          "description": "Account Management",
+          "statements": [
+            {
+              "statement-id": "ac-2_stmt.a",
+              "description": "The system implements centralized identity management across all cloud providers (AWS, OCI, Azure) with unified account management policies."
+            },
+            {
+              "statement-id": "ac-2_stmt.b",
+              "description": "Account creation, modification, and termination is managed through the MultiCloud Orchestrator with appropriate approvals and audit logging."
+            }
+          ]
+        },
+        {
+          "uuid": "f3c2a5b6-7d8e-9f0a-1b2c-3d4e5f6a7b8c",
+          "control-id": "au-2",
+          "description": "Audit Events",
+          "statements": [
+            {
+              "statement-id": "au-2_stmt.a",
+              "description": "The system logs all administrative actions, resource access, and security-relevant events across all cloud platforms into a centralized logging solution."
+            }
+          ]
+        },
+        {
+          "uuid": "a9b8c7d6-e5f4-g3h2-i1j0-k9l8m7n6o5p4",
+          "control-id": "cm-6",
+          "description": "Configuration Settings",
+          "statements": [
+            {
+              "statement-id": "cm-6_stmt.a",
+              "description": "Configuration settings for all cloud resources are defined and managed through infrastructure-as-code templates with version control."
+            },
+            {
+              "statement-id": "cm-6_stmt.b",
+              "description": "Deviations from baseline configurations are automatically detected and remediated across all cloud environments."
+            }
+          ]
+        },
+        {
+          "uuid": "q1w2e3r4-t5y6-u7i8-o9p0-a1s2d3f4g5h6",
+          "control-id": "sc-7",
+          "description": "Boundary Protection",
+          "statements": [
+            {
+              "statement-id": "sc-7_stmt.a",
+              "description": "Network traffic between cloud environments is controlled through secure VPC/VCN/VNet peering and transit gateways with appropriate security group rules."
+            },
+            {
+              "statement-id": "sc-7_stmt.b",
+              "description": "External traffic is filtered through cloud-native security services and third-party security tools with deep packet inspection."
+            }
+          ]
+        },
+        {
+          "uuid": "j7k8l9m0-n1o2-p3q4-r5s6-t7u8v9w0x1y2",
+          "control-id": "si-4",
+          "description": "System Monitoring",
+          "statements": [
+            {
+              "statement-id": "si-4_stmt.a",
+              "description": "The system continuously monitors all cloud environments for unauthorized access attempts, policy violations, and suspicious activities."
+            },
+            {
+              "statement-id": "si-4_stmt.b",
+              "description": "Security events are consolidated across cloud providers into a centralized security information and event management (SIEM) system for correlation and analysis."
+            }
+          ]
+        },
+        {
+          "uuid": "z2x3c4v5-b6n7-m8a9-s0d1-f2g3h4j5k6l7",
+          "control-id": "cp-9",
+          "description": "System Backup",
+          "statements": [
+            {
+              "statement-id": "cp-9_stmt.a",
+              "description": "Data backup procedures are implemented across all cloud environments with standardized retention periods and recovery testing."
+            }
+          ]
+        },
+        {
+          "uuid": "m1n2b3v4-c5x6-z7l8-k9j0-h1g2f3d4s5a6",
+          "control-id": "ia-2",
+          "description": "Identification and Authentication",
+          "statements": [
+            {
+              "statement-id": "ia-2_stmt.a",
+              "description": "Multi-factor authentication is enforced for all administrative access to cloud resources across AWS, OCI, and Azure."
+            },
+            {
+              "statement-id": "ia-2_stmt.b",
+              "description": "Service accounts use strong authentication mechanisms with automatic credential rotation."
+            }
+          ]
+        },
+        {
+          "uuid": "p0o9i8u7-y6t5-r4e3-w2q1-a2s3d4f5g6h7",
+          "control-id": "ra-5",
+          "description": "Vulnerability Scanning",
+          "statements": [
+            {
+              "statement-id": "ra-5_stmt.a",
+              "description": "Regular vulnerability scanning is performed across all cloud environments with automated remediation workflows."
+            },
+            {
+              "statement-id": "ra-5_stmt.b",
+              "description": "Cloud-specific security benchmarks and best practices are continuously evaluated with compliance reporting."
+            }
+          ]
+        }
+      }
+-- REDACTED
