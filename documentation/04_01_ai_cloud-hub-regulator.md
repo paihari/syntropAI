@@ -42,16 +42,8 @@ This ensures that autonomy remains auditable, and that operations align with evo
 
 While many internal and external regulations must eventually be addressed, this exercise focuses on three **early-stage regulatory features** — each designed to demonstrate how AI agents can align with key areas of observability, reproducibility, and governance.
 
-### 💸 1. Cost Oversight and FinOps Monitoring
 
-The Regulatory Arm monitors resource creation in coordination with FinOps policies. All cost-affecting actions are:
-- Logged to Slack (`#finops-alerts`)
-- Traced to their initiating request
-- Evaluated against predefined VM, region, and tag-based cost thresholds
-
-This forms the foundation for cost observability in future budget compliance workflows.
-
-### 🔗 2. Resource Graph Memory for State Reproducibility
+### 🔗 1. Resource Graph Memory for State Reproducibility
 
 A real-time **resource graph** is built and maintained, capturing:
 - All provisioned components
@@ -62,6 +54,16 @@ This enables agents (and humans) to:
 - Understand current infrastructure state
 - Reproduce identical deployments if needed
 - Trace failures or regressions to specific actions
+
+### 💸 2. Cost Oversight and FinOps Monitoring
+
+The Regulatory Arm monitors resource creation in coordination with FinOps policies. All cost-affecting actions are:
+- Logged to Slack (`#finops-alerts`)
+- Traced to their initiating request
+- Evaluated against predefined VM, region, and tag-based cost thresholds
+
+This forms the foundation for cost observability in future budget compliance workflows.
+
 
 ### 🛡️ 3. Experimental NIST OSCAL Reporting
 
@@ -98,6 +100,19 @@ The Regulatory Arm acts as the **feedback loop** for the system:
 By embedding regulatory intelligence into the AI Cloud Hub, SyntropAI ensures **autonomy with accountability**, and **execution with explainability**.
 
 ---
+
+## Use Case Demos
+
+Below are short videos demonstrating how AI agents implement regulatory intelligence across multicloud environments:
+
+| Use Case                                  | Description                                                                                                             | Video Link         |
+|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------|
+| 🌐 Graph-Based Multicloud Regulation      | Demonstrates the AI agent provisioning infrastructure across AWS, OCI, and Azure — while capturing every action, tag, and policy check as a graph in Neo4j. This enables relationship tracing, auditability, and intelligent regulation. | [Watch Video](https://1drv.ms/v/s!ApYCNITU9RB2rOV6QiHRL5kQ-jmk3A?e=8NqB6i) |
+| 💸 Multicloud Cost Calculation & FinOps Reporting | Demonstrates how the AI agent audits deployed infrastructure across AWS, OCI, and Azure, calculates monthly cost, and generates a human-readable Markdown and machine-readable JSON report. Results are shared with the FinOps team via Slack, including optimization suggestions to reduce spend by up to 40% — showcasing explainable, cost-aware governance in action. | [Watch Video](https://1drv.ms/v/s!ApYCNITU9RB2rOYFX1i74KIXN1Ev9A?e=H0FVd7) |
+| 📄 NIST System Security Plan (SSP) Generation | Concludes the 13-part series by demonstrating how the AI agent compiles a NIST-compliant System Security Plan (SSP) across AWS, OCI, and Azure. It performs resource discovery, verifies VM image integrity and SLAs, maps security controls (CM-3, SA-10, SA-12), and generates a structured report for CISO review. The final SSP includes system metadata, network and compute inventory, and control mappings—closing the loop from automation to formal compliance. | [Watch Video](https://1drv.ms/v/s!ApYCNITU9RB2rOYRV1tqsukOYIV5xA?e=vfhJSb) |
+
+---
+
 
 ## Key Takeaway
 

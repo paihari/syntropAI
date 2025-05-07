@@ -1,0 +1,25 @@
+{
+  "system-security-plan": {
+    "uuid": "00f7b169-6ed8-46ba-8622-3e0d3b9e8bf2",
+    "metadata": {
+      "title": "Anonymized-e78a5f0e",
+      "parties": [
+        {
+          "uuid": "2e378ed9-4f74-4f8d-ac17-deb177c488de",
+          "type": "organization",
+          "name": "Anonymized-bf3a9802",
+          "addresses": [
+            {
+              "addr-lines": [
+                "Lilienweg 9"
+              ],
+              "city": "REDACTED",
+              "postal-code": "REDACTED",
+              "country": "CH"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
