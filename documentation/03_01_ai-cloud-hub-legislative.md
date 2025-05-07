@@ -127,4 +127,12 @@ This README has demonstrated how **legislative knowledge and policy enforcement*
 In the next section, we’ll explore how to integrate the **Regulatory Pillar** — enabling oversight, reporting, and systemic accountability.
 ---
 
+## Next Steps
+
+Next section describes the integration of the Regulatory Arm, emphasizing oversight, accountability, and continuous improvement.
+
+[AI Cloud Hub: Regulatory Arm](04_01_ai-cloud-hub-regulator.md)
+
+---
+
 **SyntropAI**: Governing AI-powered infrastructure through policy-driven systemic thinking.

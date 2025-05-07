@@ -23,9 +23,9 @@ These integrations enable AI agents to autonomously manage infrastructure resour
   - **Modular** — easily integrable across diverse cloud platforms
 
 - **Supported Cloud Platforms:**  
-  - Microsoft Azure — [GitHub Repo](https://github.com/simplificare-org/mcp-server-azure)  
-  - Amazon Web Services (AWS) — [GitHub Repo](https://github.com/simplificare-org/mcp-server-for-aws)  
-  - Oracle Cloud Infrastructure (OCI) — [GitHub Repo](https://github.com/simplificare-org/mcp-server-oci)
+  - Microsoft Azure   
+  - Amazon Web Services (AWS) 
+  - Oracle Cloud Infrastructure (OCI)
 
 ---
 
@@ -57,3 +57,15 @@ Below are short video recordings with audio demonstrating real-world use cases:
 The Executive Arm provides AI agents with the autonomy to act — but not in isolation. Through self-developed, cloud-agnostic services integrated via the Model Context Protocol (MCP), agents can provision, manage, and troubleshoot infrastructure across hyperscalers with natural language inputs.
 
 This operational layer forms the **execution backbone** of SyntropAI — setting the stage for systemic orchestration guided by legislative policy and regulatory oversight in the next section.
+
+---
+
+## Next Steps
+
+Next section explains the integration of the Legislative Arm, focusing on policy enforcement, governance, and operational boundaries.
+
+[AI Cloud Hub: Legislative Arm](03_01_ai-cloud-hub-legislative.md)
+
+---
+
+**SyntropAI**: Turning cloud operations into intelligent, agent-driven execution.

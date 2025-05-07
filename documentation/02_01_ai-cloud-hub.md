@@ -108,4 +108,12 @@ Each server tier communicates through the **Model Context Protocol**, which enab
 
 ---
 
+## Next Steps
+
+Next section details the integration of the Executive Arm, focusing on autonomous infrastructure provisioning and execution.
+
+[AI Cloud Hub: Executive Arm](02_02_ai-cloud-hub-executive.md)
+
+---
+
 **SyntropAI**: From concept to real-world impact — solving multicloud complexity through systemic AI agent design.

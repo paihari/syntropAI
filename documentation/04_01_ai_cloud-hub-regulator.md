@@ -79,16 +79,6 @@ Though experimental, this demonstrates how **compliance as code** can evolve int
 
 ---
 
-## Example Use Cases
-
-| Use Case                               | Description                                                                                                   | Video Link |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------|------------|
-| 📊 Compliance Summary Reporting        | Agent provisions cloud resources and submits a NIST-style compliance report to CISO and Ops via Slack.        | [Watch Video](https://example.com/demo3) |
-| 🧠 Memory Recall for Previous Actions  | Agent queries its own memory to trace when, why, and by whom a specific VM was provisioned.                   | [Watch Video](https://example.com/demo4) |
-| 🛡️ Policy Violation Insight           | When a rule is breached, the Regulatory Server auto-tags the violation, logs the incident, and alerts Slack. | [Watch Video](https://example.com/demo5) |
-
----
-
 ## Regulatory Server Role in MCP Ecosystem
 
 The Regulatory Arm acts as the **feedback loop** for the system:
