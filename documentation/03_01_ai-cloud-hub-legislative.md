@@ -124,7 +124,6 @@ With these guardrails in place, autonomy becomes aligned with business strategy,
 
 This README has demonstrated how **legislative knowledge and policy enforcement** can be modeled, integrated, and operationalized within real-world AI agent systems.
 
-In the next section, we’ll explore how to integrate the **Regulatory Pillar** — enabling oversight, reporting, and systemic accountability.
 ---
 
 ## Next Steps
