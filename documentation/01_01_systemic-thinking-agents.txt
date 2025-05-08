@@ -1,0 +1,12 @@
+SyntropAI series: Agents in Systemic Thinking
+
+In this article, I explore three types of agents — biological, human, and AI — and what AI systems can learn from nature and society.
+
+We look at how AI agents can go beyond automation and start thinking systemically:
+🧠 Adaptive like biology
+🤝 Collaborative like humans
+⚙️ Scalable like real-world ecosystems
+
+This is part of an ongoing article series that breaks down AI, infrastructure, FinOps, and governance in clear, structured terms.
+
+#ArtificialIntelligence #DigitalTransformation #CloudComputing #SystemsThinking

@@ -1,0 +1,7 @@
+SyntropAI series: AI Cloud Hub – Introduction
+
+This article shifts from theory to practice — showing how AI agents can manage real-world cloud infrastructure across hybrid and multicloud environments.
+
+It’s not a tools showcase. It’s a systems-level view of how to bring together automation, FinOps, and governance using agent-aware design and the Model Context Protocol (MCP).
+
+#AIInfrastructure #CloudComputing #Multicloud #FinOps #SystemicThinking #SyntropAI
