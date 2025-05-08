@@ -48,13 +48,13 @@ As part of this exercise, the following **seven policy types** were introduced t
 
 The policies are defined within the following **rule stores**:
 
-- **CISO Rule Store**: [technical/legislative/ciso-rule-store/rule-book.txt](../technical/tools/ciso-rule-store/rule-book.txt)  
+- **CISO Rule Store**: [technical/legislative/ciso-rule-store/rule-book.txt](../technical/legislative/ciso-rule-store/rule-book.txt)  
   Contains security and compliance policies, such as enforcing private subnets and tagging requirements.
 
-- **FinOps Rule Store**: [technical/legislative/finops-rule-store/rule-book.txt](../technical/tools/finops-rule-store/rule-book.txt)  
+- **FinOps Rule Store**: [technical/legislative/finops-rule-store/rule-book.txt](../technical/legislative/finops-rule-store/rule-book.txt)  
   Includes cost governance rules, such as maximum VM configurations and approved regions.
 
-- **Agent Owner Rule Store**: [technical/legislative/owner-rule-store/rule-book.txt](../technical/tools/agent-rule-store/rule-book.txt)  
+- **Agent Owner Rule Store**: [technical/legislative/owner-rule-store/rule-book.txt](../technical/legislative/agent-rule-store/rule-book.txt)  
   Defines operational rules for agents, such as storing chat context in memory and reporting execution results.
 
 ### ✅ Resource Constraints
