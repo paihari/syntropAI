@@ -1,4 +1,4 @@
-# SyntropAI
+# SyntropAI 
 
 Welcome to **SyntropAI**, a repository dedicated to exploring systemic thinking and its application to solving complex problems using Artificial Intelligence (AI). This repository combines conceptual frameworks with technical artifacts to bridge the gap between theory and practice.
 
